@@ -111,4 +111,4 @@ module lut_alu (
         end
     end
 
-endmodule : dut0_8
+endmodule : lut_alu
