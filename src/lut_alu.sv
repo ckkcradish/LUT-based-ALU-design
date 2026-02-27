@@ -1,3 +1,23 @@
+// The following opcodes are used in this design. 
+// You can try to build a testbench to test this ALU desugn.
+// 10'b1001101000  subr
+// 10'b0110010010  addc
+// 10'b0010101000  incb
+// 10'b0100101000  inca
+// 10'b0110000010  add
+// 10'b0110000000  xor
+// 10'b0010001000  movb
+// 10'b0001001000  xnor
+// 10'b0111001000  minus1
+// 10'b0100000000  abn
+// 10'b1000000010  sllb
+// 10'b0100001000  mova
+// 10'b0000000011  slla
+// 10'b0000000000  Zeros
+
+
+
+
 module lut_alu (
     input  logic        clk,
     input  logic        reset,
