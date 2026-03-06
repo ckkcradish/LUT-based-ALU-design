@@ -23,10 +23,12 @@ Simulation Result (TCL Log):
 [ SUB] A:   0 B:   1  CI:0 | Z:  -1 (Hex:ff) CO:0 <-- Negative result (Borrow) <br>
 
 --- Testing SUBR (B - A) --- <br>
-[SUBR] A:   5 B:  10  CI:0 | Z:   5 (Hex:05) CO:1 <br>                            
+[SUBR] A:   5 B:  10  CI:0 | Z:   5 (Hex:05) CO:1 <br>
 [SUBR] A:  10 B:   5  CI:0 | Z:  -5 (Hex:fb) CO:0 <-- Negative result (Borrow) <br>
 
 --- Testing Logic (XOR/XNOR) --- <br>
 [ XOR] A:10101010 B:01010101 CI:0 | Z:11111111 (Hex:ff) CO:0 <br>
 [XNOR] A:10101010 B:01010101 CI:0 | Z:00000000 (Hex:00) CO:0 <br>
+
+
 $finish called at time : 146 ns
