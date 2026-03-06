@@ -25,10 +25,10 @@ module lut_alu (
     input  logic [7:0]  A,
     input  logic [7:0]  B,
     input  logic        CI,
-    input  logic        PI,
+    //input  logic        PI,
     output logic [7:0]  Z,
     output logic        CO,
-    output logic        PO
+    //output logic        PO
 );
 
     // Internal signal declarations (adjusted for 8-bit)
@@ -95,7 +95,7 @@ module lut_alu (
         co_d = gg[7] | (pp[7] & Ci[7]); 
         
         z_d  = pp ^ Ci;
-        po_d = PI;
+        //po_d = PI;
     end
 
     // Sequential logic section (with asynchronous reset)
@@ -103,11 +103,11 @@ module lut_alu (
         if(reset) begin
             Z  <= 8'h00;
             CO <= 1'b0;
-            PO <= 1'b0;
+            //PO <= 1'b0;
         end else begin
             Z  <= #1 z_d;
             CO <= #1 co_d;
-            PO <= #1 po_d;
+            //PO <= #1 po_d;
         end
     end
 
