@@ -2,7 +2,9 @@
 A LUT-based ALU design using Systemverilog. For SJSU IEEE Digital Workshop of ALU design.
 
 src/lut_alu.sv : The lut-based alu design code. <br>
-sim/lut_alu_tb : The testbench.
+sim/lut_alu_tb : The testbench.  
+mux_based/ : The mux-baesd alu design code and testbench
+
 
 Simulation Result (TCL Log):
 
