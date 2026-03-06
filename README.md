@@ -6,7 +6,7 @@ sim/lut_alu_tb : The testbench.
 
 Simulation Result (TCL Log):
 
---- Starting ALU Tests (Updated Mapping) --- <br>
+--- Starting LUT-ALU Tests --- <br>
 
 --- Testing ADD --- <br>
 [ ADD] A:   5 B:  10 CI:0 | Z:  15 (Hex:0f) CO:0 <br>
